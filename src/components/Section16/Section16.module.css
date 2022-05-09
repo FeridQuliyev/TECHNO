@@ -1,0 +1,100 @@
+.container{
+width: 90%;
+margin: 0 auto;    
+margin-top: 80px;    
+}
+.cards{
+display: flex;
+justify-content: space-evenly;    
+}
+.card{
+width: 27%;
+height: 390px;    
+border-radius: 10px; 
+background: #3586ffe8;
+line-height: 30px; 
+}
+.card h2{
+text-align: center; 
+padding: 10px;
+font-size: 55px;
+margin-top: 50px;
+color: #fff; 
+}
+.text{
+text-align: center;
+letter-spacing: 1px;
+color: #fff;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.text h1{
+font-size: 28px;
+color: #fff;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+}
+.text p{
+width: 83%;
+margin: 0 auto;    
+font-size: 22px;
+margin-top: 30px;  
+}
+.text a{
+text-decoration: none;
+color: #fff;    
+}
+.number p{
+line-height: 0px;
+padding-top: 10px;    
+}
+.number a{
+color: #fff;
+text-decoration: none;    
+}
+.links{
+margin-top: 30px;    
+}
+.links a{
+color: rgb(255, 255, 255);
+font-size: 32px;   
+padding: 0px 10px; 
+}
+@media screen and (max-width: 767px){
+.container{
+margin-top: 50px;    
+}    
+.cards{
+display: block;    
+} 
+.card{
+width: 95%;
+height: 300px;
+margin: 0 auto;    
+}
+.card h2{
+margin-top: 20px; 
+padding-top: 50px; 
+}   
+}
+@media screen and (max-width: 350px){
+.card{
+width: 90%;    
+}
+}
+@media (min-width: 768px) and (max-width: 1024px){
+.cards{
+flex-wrap: wrap;   
+line-height: 50px; 
+}
+.card{
+width: 40%;  
+}
+#card{
+margin-top: 25px;    
+}    
+}
+@media (min-width:1850px){
+.card{
+width:24.6vw;    
+height: 15vw;    
+}    
+}

@@ -1,0 +1,291 @@
+.background{
+background-color: rgba(95, 91, 91, 0.404);
+height: 100%;    
+}
+.cards{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center; 
+padding: 5px;
+}
+.card{
+height: 400px;
+width: 350px;
+background-color: #fff;
+transform: scale(0.8);    
+border-radius: 8px;
+}
+.info{
+width: 100%;
+height: 100%;
+display: flex;
+justify-content: center;    
+}
+.name{
+font-size: 30px;
+font-weight: 600;
+color: #f79f08;
+font-family: 'Poppins', sans-serif;
+position: absolute;
+top: 100px;
+letter-spacing: 1px;
+}
+.prof{
+font-size: 25px;
+color: #555555;
+font-family: 'Poppins', sans-serif;
+position: absolute;
+top: 140px;  
+}
+.divider{
+background-color: #949594;
+height: 1.5px;
+width: 50px;
+position: absolute;
+top: 190px;    
+}
+.bio{
+position: absolute;
+top: 200px;
+color: #555555;
+font-family: 'Poppins', sans-serif;
+line-height:28px;  
+font-size: 18px;  
+padding: 1px;
+text-align: center;
+}
+.but{
+position: absolute;
+bottom: 30px;
+background-color: #f79f08;
+border: none;
+font-size: 20px;
+padding: 13px 25px;
+font-family: 'Poppins', sans-serif;
+letter-spacing: 1.2px;
+font-size: 20px;
+cursor: pointer;
+color: #fff;   
+text-decoration: none;
+font-weight: 600; 
+}
+.photo1{
+height: 100%;
+width: 100%;
+background-image: url("../image/team1.jpg");
+background-position: center;
+position: absolute;
+bottom: 0;
+background-size: 100% 100%;
+border-radius: 8px;   
+border-radius: 8px;
+transition: 1s;
+}
+.card:hover .photo1{
+transform: scale(0.5,0.35) translateY(-650px); ;
+border-radius: 50%;   
+background-size: 100% 150%;
+background-position: 0 -25px;
+}
+.photo2{
+height: 100%;
+width: 100%;
+background-image: url("../image/team2.jpg");
+background-position: center;
+position: absolute;
+bottom: 0;
+background-size: 100% 100%;
+border-radius: 8px;   
+border-radius: 8px;
+transition: 1s;
+}
+.card:hover .photo2{
+transform: scale(0.5,0.35) translateY(-650px); ;
+border-radius: 50%;   
+background-size: 100% 150%;
+background-position: 0 -25px;
+}
+.photo3{
+height: 100%;
+width: 100%;
+background-image: url("../image/team3.jpg");
+background-repeat: no-repeat;
+background-position: center;
+position: absolute;
+bottom: 0;
+background-size: 100% 100%;
+border-radius: 8px;   
+border-radius: 8px;
+transition: 1s;
+}
+.card:hover .photo3{
+transform: scale(0.5,0.35) translateY(-650px); ;
+border-radius: 50%;   
+background-size: 100% 150%;
+background-position: 0 -25px;
+}
+.photo4{
+height: 100%;
+width: 100%;
+background-image: url("../image/team4.jpg");
+background-repeat: no-repeat;
+background-position: center;
+position: absolute;
+bottom: 0;
+background-size: 100% 100%;
+border-radius: 8px;   
+border-radius: 8px;
+transition: 1s;
+}
+.card:hover .photo4{
+transform: scale(0.5,0.35) translateY(-650px); ;
+border-radius: 50%;   
+background-size: 100% 150%;
+background-position: 0 -25px;
+}
+.photo5{
+height: 100%;
+width: 100%;
+background-image: url("../image/team5.jpg");
+background-repeat: no-repeat;
+position: absolute;
+background-position: center;
+bottom: 0;
+background-size: 100% 100%;
+border-radius: 8px;   
+border-radius: 8px;
+transition: 1s;
+}
+.card:hover .photo5{
+transform: scale(0.5,0.35) translateY(-650px); ;
+border-radius: 50%;   
+background-size: 100% 150%;
+background-position: 0 -25px;
+}
+.photo6{
+height: 100%;
+width: 100%;
+background-image: url("../image/team6.jpg");
+background-repeat: no-repeat;
+position: absolute;
+background-position: center;
+bottom: 0;
+background-size: 100% 100%;
+border-radius: 8px;   
+border-radius: 8px;
+transition: 1s;
+}
+.card:hover .photo6{
+transform: scale(0.5,0.35) translateY(-650px); ;
+border-radius: 50%;   
+background-size: 100% 150%;
+background-position: 0 -25px;
+}
+.photo7{
+height: 100%;
+width: 100%;
+background-image: url("../image/team6.jpg");
+background-repeat: no-repeat;
+position: absolute;
+background-position: center;
+bottom: 0;
+background-size: 100% 100%;
+border-radius: 8px;   
+border-radius: 8px;
+transition: 1s;
+}
+.card:hover .photo7{
+transform: scale(0.5,0.35) translateY(-650px); ;
+border-radius: 50%;   
+background-size: 100% 150%;
+background-position: 0 -25px;
+}
+.photo8{
+height: 100%;
+width: 100%;
+background-image: url("../image/team6.jpg");
+background-repeat: no-repeat;
+position: absolute;
+background-position: center;
+bottom: 0;
+background-size: 100% 100%;
+border-radius: 8px;   
+border-radius: 8px;
+transition: 1s;
+}
+.card:hover .photo8{
+transform: scale(0.5,0.35) translateY(-650px); ;
+border-radius: 50%;   
+background-size: 100% 150%;
+background-position: 0 -25px;
+}
+.photo9{
+height: 100%;
+width: 100%;
+background-image: url("../image/team6.jpg");
+background-repeat: no-repeat;
+position: absolute;
+background-position: center;
+bottom: 0;
+background-size: 100% 100%;
+border-radius: 8px;   
+border-radius: 8px;
+transition: 1s;
+}
+.card:hover .photo9{
+transform: scale(0.5,0.35) translateY(-650px); ;
+border-radius: 50%;   
+background-size: 100% 150%;
+background-position: 0 -25px;
+}
+.channel a{
+position: absolute;
+bottom: -52px;
+font-size: 25px;
+color: #ffa200;
+background-color: #fff;
+border-radius: 8px;
+width: 100%;
+font-family: 'Poppins', sans-serif;
+padding: 12px 0;
+font-weight: 600; 
+text-decoration: none;
+text-align: center;
+}
+
+@media screen and (max-width: 340px){
+.card{
+width: 100%;  
+height: 400px;
+}  
+}
+
+@media screen and (max-width: 767px){
+.card{
+width: 100%;  
+height: 400px;
+} 
+}
+
+@media (min-width: 768px) and (max-width: 1200px){
+.cards{
+  width: 100%;
+  flex-wrap: wrap;   
+}
+.card{
+  width: 40%; 
+  } 
+.cards{
+  padding: 0px;  
+}
+}
+@media screen and (min-width: 1600px){
+.card{
+width: 16%;  
+height: 420px;
+  } 
+.cards{
+padding: 5px;  
+}
+}

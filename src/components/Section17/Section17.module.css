@@ -1,0 +1,37 @@
+.container{
+width: 81%;
+margin: 0 auto;    
+margin-top: 100px; 
+}
+@media screen and (max-width: 767px){
+.container{
+width: 88%;    
+margin-top: 60px;
+}    
+.container iframe{
+width: 87vw!important; 
+height: 70vw !important;  
+}    
+}
+
+@media (min-width: 768px) and (max-width: 1849px){
+.container{
+width: 83%;    
+margin-top: 60px;
+}    
+.container iframe{
+width: 83vw !important; 
+height: 50vw !important;  
+}       
+}
+
+@media (min-width:1850px){
+.container{
+width: 83%;    
+}    
+.container iframe{
+width: 83vw !important; 
+height: 30vw !important;  
+margin: 0 auto;
+}      
+}

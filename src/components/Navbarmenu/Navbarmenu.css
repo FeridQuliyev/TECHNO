@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+nav{
+position: fixed;
+height: 80px;
+width: 100%;
+top: 0;
+left: 0;
+z-index: 1;
+background-color: rgba(0, 0, 0, 0.6);
+transition: .3s ease-in;
+}
+nav:after{
+content: '';
+clear: both;
+display: table;
+}
+nav .logo img{
+float: left;
+width: 135px;
+height: 80px;
+padding: 7px;
+padding-left: 60px;
+}
+nav ul{
+float: right;
+margin-right: 40px;
+margin-top: 10px;
+list-style: none;
+position: relative;
+}
+nav ul li{
+display: inline-block;
+margin: 0 5px;
+}
+.dropdown{
+margin-top: 16px;
+background-color: rgba(0, 0, 0, 0.7);
+}
+nav ul li a{
+font-family: 'Poppins', sans-serif;
+color: white;
+line-height: 70px;
+text-decoration: none;
+font-size: 20px;
+padding: 8px 15px;
+cursor: pointer;
+}
+nav ul li a:hover{
+color: cyan;
+border-radius: 5px;
+box-shadow:  0 0 5px #33ffff,
+              0 0 10px #66ffff;
+transition: 0.2s;
+}
+.isactive{
+color: cyan;
+border-radius: 5px;
+box-shadow:  0 0 5px #33ffff,
+               0 0 10px #66ffff;  
+}
+nav ul ul li a:hover{
+box-shadow: none;
+}
+nav ul ul{
+position: absolute;
+top: 60px;
+border-top: 3px solid cyan;
+opacity: 0;
+visibility: hidden;
+transition: top .3s;
+}
+.icons{
+display: none ;  
+}
+nav ul ul ul{
+border-top: none;
+}
+nav ul li:hover > ul{
+top: 50px;
+opacity: 1;
+visibility: visible;
+}
+nav ul ul li{
+position: relative;
+margin: 0px;
+width: 270px;
+float: none;
+display: list-item;
+border-bottom: 1px solid rgba(0,0,0,0.3);
+}
+nav ul ul li a{
+line-height: 50px;
+}
+nav ul ul ul li{
+position: relative;
+top: -60px;
+left: 150px;
+}
+#btn{
+display: none;  
+}
+#btn-2{
+display: none;  
+}
+.show{
+display: none;  
+}
+.fa-plus{
+font-size: 15px;
+margin-left: 40px;
+}
+#down{
+font-size: 15px;
+padding: 0 2px;
+}
+#down:hover{
+color: cyan;  
+}
+@media all and (max-width: 968px) {
+nav{
+background-color: rgba(0, 0, 0, 0.5);
+}
+ nav ul{
+width: 100%;
+text-align: center;
+bottom: 12px;
+transform: translate(40px);
+background-color: rgba(0, 0, 0, 0.5);
+}
+nav .logo{
+width: 100%;
+transform: translate(-20px);
+padding-top: 0px;
+}
+nav .logo img{
+width: 120px;
+height: 82px; 
+padding-left: 50px; 
+}
+.show + a, ul{
+display: none;
+}
+nav ul li,nav ul ul li{
+display: block;
+width: 100%;
+}
+nav ul li a:hover{
+box-shadow: none;
+  }
+.show{
+font-family: 'Poppins', sans-serif;
+display: block;
+color: white;
+font-size: 21px;
+line-height: 30px;
+cursor: pointer;
+transform: translate(0px);
+}
+.icons{
+display: block;
+color: white;
+position: absolute;
+top: 0;
+background-color: none;
+right: 20px;
+padding-top: 23px;
+font-size: 40px;
+}
+nav ul ul{
+width: 90%;
+margin: 0 auto;
+transform: translate(-5px);
+border-top: 0px;
+background: transparent !important;
+float: none;
+position: static;
+display: none;
+opacity: 1;
+visibility: visible;
+}
+nav ul ul ul li{
+font-family: 'Poppins', sans-serif;
+position: static;
+}
+.dropdown a{
+line-height: 37px;  
+}
+.dropdown{
+display: none;  
+}
+.dropdown.active{
+display: block;  
+}
+.team{
+transform: translateY(-15px);   
+}
+ .contact{
+ transform: translateY(-30px);  
+ }
+nav ul ul li{
+border-bottom: 0px;
+}
+.sub__menus{
+display: none;
+}
+.sub__menus__Active{
+display: block;
+}
+}
+
+
+

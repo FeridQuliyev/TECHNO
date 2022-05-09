@@ -1,0 +1,233 @@
+.title h1{
+text-align: center;
+font-size: 50px;
+margin-top: 80px;
+font-weight: 600;
+letter-spacing: 1.3px;
+font-family: 'Poppins', sans-serif;    
+}
+.packages{ 
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+}
+.container{
+width: 1100px;
+display: grid;
+flex-wrap: wrap;
+display: flex;
+justify-content: center;
+grid-template-columns: repeat(auto-fit,minmax(350px, 1fr));    
+grid-gap: 40px 0px;
+margin: 0 auto;
+padding-top: 50px;
+    }
+.content h1{
+line-height: 50px;
+margin-top: 30px;   
+font-family: 'Poppins', sans-serif;     
+}
+.icons{
+display: flex;  
+}
+.icon{
+padding: 10px 7px;
+font-size: 18px;  
+line-height: 0px;  
+}
+.text p{
+font-family: 'Poppins', sans-serif;
+font-size: 21px;
+font-weight: 600;
+line-height: 40px;     
+}
+.container .card{
+position: relative;
+width: 350px;
+height: 470px;
+margin: 0 auto;
+background: #fff;
+transition: 0.5s;    
+}
+.container .card:hover{
+box-shadow: 0 30px 50px rgba(0,0,0,.2);    
+}
+.container .card .face{
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;   
+}
+.container .card .face#face1{
+box-sizing: border-box;
+text-align: center;
+background: #fff;
+color: #013d4a; 
+}
+
+.container .card .face#face1 a{
+display: inline-block;
+padding: 15px 15px;
+margin-top: 30px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 22px;
+letter-spacing: 1.2px;
+border-radius: 5px;
+text-decoration: none;
+color: #013d4a;
+border: 2px solid #013d4a;    
+}
+.container .card .face#face1 a:hover{
+color: #fff;
+background: #013d4a; 
+transition: 0.4s;   
+}
+.container .card .face#face2{
+background: #013d4a;
+transition: 0.5s;
+border-radius: 30px;   
+}
+.container .card:hover .face#face2{
+height: 80px;
+width: 80px;
+border-radius: 50%;
+top: 20px;
+left: 50%;
+transform: translateX(-50%);
+background: transparent !important;
+}
+.container .card .face#face2 h2{
+margin: 0;
+padding: 0;
+font-size: 60px;
+color: #fff;
+text-shadow: 1px 1px 1px black;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+transition: 0.5s;    
+}
+.container .card:hover .face#face2 h2{
+color: #013d4a;
+font-size: 2em;    
+}
+.titletext p{
+width: 100%;
+line-height: 40px;
+font-size:21px;
+}
+.king{
+font-size: 70px; 
+color: crimson;   
+}
+.platinum{
+width: 72%; 
+display: flex;   
+}
+
+@media screen and (max-width: 340px){
+.container .card{
+width: 100%;   
+} 
+.container{
+width:100%;    
+}
+.platinum{
+display: block;  
+width: 100% !important;  
+} 
+#out{
+margin-top: 35px;    
+}
+}
+
+@media screen and (max-width: 767px){
+.title h1{
+margin-top: 60px;
+font-size: 38px;
+}    
+.packages{
+width: 97%;  
+}
+.container{
+width: 100%; 
+}
+.container .card .face#face2 h2{
+font-size:60px;    
+}  
+.platinum{
+display: block;  
+width: 100%; 
+} 
+#out{
+margin-top: 35px;    
+}  
+}
+@media (min-width: 768px) and (max-width: 1200px){
+.title h1{
+margin-top: 60px;
+}   
+.container{
+width: 100%;    
+}
+.platinum{
+width: 100%;    
+} 
+}
+@media (max-width: 1155px){
+.platinum{
+width: 90%;    
+}
+}
+@media (min-width:1541px){
+.container{
+width: 100w;    
+} 
+.packages{
+width: 75vw; 
+margin: 0 auto;   
+}
+.platinum{
+width: 75%;    
+} 
+}
+@media (min-width:1925px){
+.container{
+width: 100w;    
+} 
+.packages{
+width: 60vw; 
+margin: 0 auto;   
+} 
+.platinum{
+width: 70%;    
+} 
+}
+@media (min-width:2200px){
+.container{
+width: 100vw;    
+} 
+.packages{
+width: 85vw; 
+margin: 0 auto;   
+}
+.platinum{
+width: 40%;    
+} 
+}
+@media (min-width:2600px){
+.container{
+width: 100w;    
+} 
+.packages{
+width: 75vw; 
+margin: 0 auto;   
+}
+.platinum{
+width: 40%;    
+} 
+}
+
+

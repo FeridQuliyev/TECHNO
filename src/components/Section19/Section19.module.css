@@ -1,0 +1,109 @@
+.background{
+background-color: rgba(95, 91, 91, 0.185);
+height: 100%;     
+}
+.container{
+display: flex;    
+flex-wrap: wrap;
+justify-content: center;
+padding-top: 60px;
+padding: 40px;
+}
+.card{
+background: white;
+width: 290px;
+height: 680px;
+margin: 10px;
+border-radius: 15px;
+transition: 1s;
+}
+.card h2{
+text-align: center;  
+font-size: 25px;  
+font-family: 'Poppins', sans-serif;    
+}
+.card:hover{
+background-color: rgba(62, 62, 62, 0.76);
+color: #fff;
+transform: scale(1.03);
+transition: all 1s ease;
+
+}
+.cardimage{
+background-color: aqua;
+height: 180px;
+margin-bottom: 15px; 
+border-radius: 15px 15px 0 0;   
+}
+#logo1{
+background: url("../image/leadcom.jpeg");
+background-position: center;
+background-size: cover;    
+}
+#logo2{
+background: url("../image/devcenter.jpg");   
+background-position: center; 
+background-size: cover;
+}
+#logo3{
+background: url("../image/secondsale.jpg");
+background-position: center;
+background-size: cover;
+}
+#logo4{
+background: url("../image/furqan.jpg");
+background-position: center;
+background-size: cover;
+}
+.card h2{
+padding: 10px;    
+}
+.card p{
+padding: 10px;    
+}
+.but{
+text-align: center; 
+padding-top: 15px;   
+}
+.but a{
+padding: 12px 25px;
+font-size: 22px;
+border: none;
+letter-spacing: 1.1px;
+font-family: Arial, Helvetica, sans-serif;
+background: #03a9f4;
+border-radius: 20px;
+text-decoration: none;
+color: #fff;
+font-weight: 400;
+box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+cursor: pointer;  
+}
+#but1{
+padding-top: 195px;    
+}
+#but2{
+padding-top: 71px;    
+}
+#but3{
+padding-top: 195px;    
+}
+.text{
+justify-content: center;
+display: flex; 
+padding: 0 15px; 
+}
+.text span{ 
+padding: 11px 0px;  
+}
+.text p{
+ font-family: 'Poppins', sans-serif;   
+ font-size: 18px;
+ font-weight: 600;  
+ width: 100%; 
+}
+@media screen and (max-width: 336px){
+.container{
+padding: 13px;    
+}   
+}
